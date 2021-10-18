@@ -1,0 +1,105 @@
+Exercice 1
+Var nb en entier
+Debut
+    Ecrire("donnez un nombre)
+    Lire le nombre donnee:";nb
+    Si nb>0 alors
+        Ecrire("nombre positif)
+    sinon
+        Ecrire("nombre négatif)
+    FinSi
+Fin
+    
+Exercice 2
+
+Var nb,nbr en entier
+
+Debut
+    Ecrire("donnez moi un nombre)
+    Lire le nombre donnee:";nb
+    Ecrire("donnez moi un nombre)
+    Lire donnez moi un nombre:";nbr
+    SI nb and nbr>0
+    or(nb and nbr<0 then write("le produit est positif")
+    Else write("le produit est négatif")
+    End if
+End 
+
+Exercice 3
+
+Var nom,nom2,nom3 en caractères
+
+Debut
+    Ecrire("donnez moi un nomA)
+    Lire le nom donnee:";nom
+    Ecrire("donnez moi un nomB)
+    Lire le nom donnee:"nom2;
+    Ecrire ("donnez moi un nomC)
+    Lire le nom donnee:";nom3
+    SI nomA<nomB and nomB<nom C
+    Alors
+        Ecrire("ces noms sont classées dans l'ordre alphabetique)
+    sinon
+    Alors
+        Ecrire("ces noms ne sont pas classées dans l'ordre alphabetique)
+    FinSi
+Fin
+
+
+Exercice 4
+
+Var nb en entier
+
+Start
+
+    Write("donnez moi un nombre)
+    Read le nombre donnee:";nb
+    If nb>0 then
+    Write("ce produit est positif)
+    Else if nb<0 then
+    Write("ce nombre est négatif")
+    Else
+        Write ("ce produit vaut zéro")
+    FinSi
+    Fin
+
+Exercice 5
+
+Var nb,nbr en entier
+
+Start
+
+    Write("donnez moi un nb)
+        Read le nb donnee
+    Write("donnez moi un nb
+        Read le nb donnee)
+        if nb>0 et nbr>0 ou nb<0 et nb<0 then
+        else if (nb=0 or nbr=0)
+    Write("le produit est 0")
+        else
+        Write ("le produit est négatif"
+    End if
+FIN)            
+
+
+
+Exercice 6
+
+Var age en entier
+
+Start
+
+    Write("donnez moi un age")
+        Lire age donnee
+        si age> or =12 alors
+        Ecrire("cadet")
+    sinon si age>or=10 alors
+        Ecrire("Minime")
+    sinon si age>or=8 alors
+        Ecrire("Pupille")
+    sinon si age>or=6 alors
+        Ecrire("Poussin")
+    Else "trop jeune"
+        Ecrire"trop jeune
+    FinSi
+FIN    
