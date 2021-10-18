@@ -1,0 +1,13 @@
+Exercice 1)
+
+d'abord on voit 231 puis en multipliant par 2 on obtient 462 car 231*2=462
+
+
+Exercice 2
+
+Variables nombre , carré en entier
+Debut
+Ecrire "entrez un nombre:"
+Lire nombre
+carré←nombre*nombre
+Ecrire
