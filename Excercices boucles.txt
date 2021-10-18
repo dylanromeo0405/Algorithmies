@@ -1,0 +1,101 @@
+Ex1
+
+Var nbr en entier
+
+Debut
+
+    Ecrire("donnez moi un chiffre entre 1 et 3")
+    Tant que nb>1 et nb<3
+    Lire nbr
+        si nb<1 ou nb>3
+        Alors
+        Ecrire"erreur"
+        FinSi
+Fin
+
+Ex2
+
+Var nbr en entier
+
+Debut
+
+    Ecrire("donnez moi un chiffre entre 10 et 20")
+    Tant que nb>=10 et nb<=20
+    Lire nbr
+        si nb<10
+    alors
+        Ecrire("plus petit")
+    sinon si nb>20
+        Ecrire("plus grand")
+    FinSi
+    
+    FIN
+
+EX3
+
+Var nbr en entier
+
+Debut
+
+    Ecrire("donnez moi un nombre")
+    Lire nb
+    Fin←nb+10
+    Ecrire ("voici les 10 nombres qui suivent")
+    tant que nb<Fin=nb
+    nb←nb+1
+    Fin tant que
+    Fin
+2nd solution
+
+Var n,i en int
+
+Start
+
+i←0
+Write("donnez moi un nombre")
+    Read nb
+    while i<10
+    i←i+1
+    write n+i
+    end while
+end
+
+Ex 4
+
+Var nb et i en entier
+
+Debut
+
+    Ecrire("donnez moi un nombre")
+    lire le nbr donnee
+    Ecrire("voici la table de multiplication"), nb
+    Pour i< 1 à 10
+    Ecrire:nb"*",i,"="nb";
+    i++
+
+Fin
+
+Exercice 5
+
+Var nbr et i,somme en entier
+
+Debut
+
+    Ecrire("donnez moi un nombre)
+    lire le nbr donnee
+    s←0
+    pour i←1 a nb 
+    somme←somme+1
+    i++
+    Ecrire("afficher"somme)
+    Fin
+
+Exercice 6
+
+Var nbr et i,factorielle en entier
+
+Debut
+
+    Ecrire("donnez moi un nombre")
+    lire le nbr donnee
+    Ecrire("voici sa factorielle"),nb
